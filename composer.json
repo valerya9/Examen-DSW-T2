@@ -1,0 +1,16 @@
+{
+    "name": "valery/pc",
+    "description": "Examen Valery Liste",
+    "autoload": {
+        "psr-4": {
+            "Valery\\Pc\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Valery",
+            "email": "valeryliste.loscardones@gmail.com"
+        }
+    ],
+    "require": {}
+}

@@ -1,5 +1,7 @@
 <h1>Bienvenido</h1>
 <?php
+require_once '../src/data/DatosComponentes.php'; 
+
 if (isset($error)) {
     echo "<p style='color:red;'>$error</p>";
 }

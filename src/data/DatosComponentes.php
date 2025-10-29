@@ -1,5 +1,7 @@
 <?php
 
+namespace Valery\Pc\Datos;
+
 class DatosComponentes {
     static private $datos = [
         'placa' => [
@@ -35,5 +37,12 @@ class DatosComponentes {
         ],
     ];
 
+    static public function obtenerDatos(string $tipoComponenete) : array {
+        if (array_key_exists($tipoComponenete, self::$datos)) {
+            return self::$datos[$tipoComponenete];
+        } else {
+            return array([]);
+        }
+    }
 
 }
