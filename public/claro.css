@@ -1,0 +1,80 @@
+/* claro.css */
+
+/* Estilo general */
+body {
+    background-color: #ffffff;
+    color: #333333;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Contenedor */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Navegación superior */
+.top-nav {
+    background-color: #f8f9fa;
+    padding: 1rem 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.top-nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-left, .nav-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333333;
+}
+
+.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
+.nav-right p {
+    margin: 0;
+}
+
+/* Enlaces */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Contenido principal */
+main {
+    padding: 20px;
+}
+
+/* Pie de página */
+.site-footer {
+    background-color: #f8f9fa;
+    padding: 1rem 0;
+    text-align: center;
+    border-top: 1px solid #e0e0e0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

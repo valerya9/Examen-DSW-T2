@@ -1,0 +1,84 @@
+/* oscuro.css */
+
+/* Estilo general */
+body {
+    background-color: #0b0f14; /* fondo muy oscuro */
+    color: #e6eef6;           /* texto claro */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Contenedor */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Navegación superior */
+.top-nav {
+    background-color: #071216; /* nav oscuro */
+    padding: 1rem 0;
+    border-bottom: 1px solid rgba(230, 238, 246, 0.06);
+}
+
+.top-nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-left, .nav-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #e6eef6;
+}
+
+/* Menú */
+.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
+/* Texto auxiliar en la navegación */
+.nav-right p {
+    margin: 0;
+    color: #a8bbc9;
+}
+
+/* Enlaces */
+a {
+    color: #66b2ff; /* azul claro para contraste en oscuro */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Contenido principal */
+main {
+    padding: 20px;
+}
+
+/* Pie de página */
+.site-footer {
+    background-color: #071216;
+    padding: 1rem 0;
+    text-align: center;
+    border-top: 1px solid rgba(230, 238, 246, 0.04);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: #9fb3c9;
+}
